@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Chalk sample post with all elements"
-description: "Have a look at all the predesigned elements you can use in Chalk."
+title: "Reading file from resources folder in Spring Boot"
+description: "How would you read a file from resources folder?"
 thumb_image: "documentation/sample-image.jpg"
-tags: [design, jekyll]
+tags: [spring-boot, java, file]
 ---
 
 Chalk uses the default Jekyll syntax highlighting gem Rouge. It has a customized style for both light and dark theme.
