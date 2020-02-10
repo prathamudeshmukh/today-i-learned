@@ -3,6 +3,7 @@
 blog_theme: dark # Or use dark
 name: Today I Learned
 paginate: 25
+baseurl: /prathamudeshmukh
 url: https://prathamudeshmukh.github.io/today-i-learned
 
 
