@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Reading file from resources folder in Spring Boot"
-description: "How would you read a file from resources folder?"
-tags: [spring-boot, java, file]
+title: Reading JSON/XML files from resources folder in Spring Boot
+date: 2020-02-10T13:50:44.908Z
 ---
 You should be using `getResourceAsStream(...);`
 when the resource is bundled as a JAR/WAR or any other single file package for that matter.
