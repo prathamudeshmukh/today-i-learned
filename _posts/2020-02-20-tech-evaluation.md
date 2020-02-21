@@ -25,6 +25,10 @@ Blazingly fast CMS based website
 - Builds your site as "static" files which can be deployed easily on dozens of services
 - Real cases of improved `Google PageSpeed score` after adopting gatsby.js by big sites
 
+{% include image.html path="gatsby.svg" 
+ path-detail="gatsby.svg"
+ alt="Gatsby" %}
+
 #### Cons
 - Dependency on `React`, `GraphQL`
 
