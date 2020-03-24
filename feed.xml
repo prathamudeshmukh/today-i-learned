@@ -1,20 +1,50 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Today I Learned</title>
+    <description></description>
+    <link>https://prathamudeshmukh.github.io/today-i-learned</link>
+    <atom:link href="https://prathamudeshmukh.github.io/today-i-learned/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Serverless architectures</title>
+        <description></description>
+        <pubDate>Tue, 10 Mar 2020 19:27:53 +0530</pubDate>
+        <link>https://prathamudeshmukh.github.io/today-i-learned/posts/serverless-architectures</link>
+        <guid isPermaLink="true">https://prathamudeshmukh.github.io/today-i-learned/posts/serverless-architectures</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Subnets in AWS</title>
+        <description></description>
+        <pubDate>Sun, 01 Mar 2020 19:27:53 +0530</pubDate>
+        <link>https://prathamudeshmukh.github.io/today-i-learned/posts/subnets-in-aws</link>
+        <guid isPermaLink="true">https://prathamudeshmukh.github.io/today-i-learned/posts/subnets-in-aws</guid>
+      </item>
+    
+      <item>
+        <title>Tech Evaluation</title>
+        <description></description>
+        <pubDate>Thu, 20 Feb 2020 19:20:44 +0530</pubDate>
+        <link>https://prathamudeshmukh.github.io/today-i-learned/posts/tech-evaluation</link>
+        <guid isPermaLink="true">https://prathamudeshmukh.github.io/today-i-learned/posts/tech-evaluation</guid>
+      </item>
+    
+      <item>
+        <title>Javascript Arrays</title>
+        <description></description>
+        <pubDate>Mon, 10 Feb 2020 19:27:53 +0530</pubDate>
+        <link>https://prathamudeshmukh.github.io/today-i-learned/posts/javascript-arrays</link>
+        <guid isPermaLink="true">https://prathamudeshmukh.github.io/today-i-learned/posts/javascript-arrays</guid>
+      </item>
+    
+      <item>
+        <title>Reading JSON/XML files from resources folder in Spring Boot</title>
+        <description></description>
+        <pubDate>Fri, 07 Feb 2020 19:20:44 +0530</pubDate>
+        <link>https://prathamudeshmukh.github.io/today-i-learned/posts/reading-file-from-resources-spring-boot</link>
+        <guid isPermaLink="true">https://prathamudeshmukh.github.io/today-i-learned/posts/reading-file-from-resources-spring-boot</guid>
+      </item>
+    
   </channel>
 </rss>
